@@ -1,20 +1,218 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>flowershop assignment</title>
-</head>
-<body>
-    <header>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="styles/flowershop.css" />
+  </head>
+  <body>
+    <section class="hero__section">
+      <div class="container banner">
+        <div class="banner__left-side">
+          <h1 class="title">
+            Let's make beautiful flowers a part of your life.
+          </h1>
+          <p class="subtitle">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters.
+          </p>
+          <div>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <div class="banner__right-side">
+          <img
+            src="images/pngwing 10.png"
+            alt="" />
+        </div>
+      </div>
+    </section>
 
-    </header>
-    <main>
+    <section class="featured__section">
+      <div class="container">
+        <header>
+          <h2 class="title">Our Featured Flowers</h2>
+          <p class="subtitle">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </header>
+        <div class="card__wrapper">
+          <!-- card1  -->
+          <div class="card featured__card featured__card-1">
+            <div class="featured__card--img-wrapper">
+              <img
+                class="featured__card--img"
+                src="images/pngwing 6.png"
+                alt="" />
+            </div>
+            <a class="featured__card--title">Pink flower tree</a>
+          </div>
+          <!-- card2 -->
+          <div class="card featured__card featured__card-2">
+            <div class="featured__card--img-wrapper">
+              <img
+                class="featured__card--img"
+                src="images/pngwing 5.png"
+                alt="" />
+            </div>
+            <a class="featured__card--title">Pink flower tree</a>
+          </div>
+          <!-- card3 -->
+          <div class="card featured__card featured__card-3">
+            <div class="featured__card--img-wrapper">
+              <img
+                class="featured__card--img"
+                src="images/pngwing 7.png"
+                alt="" />
+            </div>
+            <a class="featured__card--title">Yellow flower tree</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </main>
-    <footer>
+    <section class="service__section">
+      <div class="container service__wrapper">
+        <div class="service__card">
+          <div class="service__img--wrapper">
+            <img
+              src="images/Group 57.png"
+              alt="" />
+          </div>
+          <p class="service__card--title">
+            Same Day Delivery. Click & Collect.
+          </p>
+        </div>
+        <div class="service__card">
+          <div class="service__img--wrapper">
+            <img
+              src="images/Group 58.png"
+              alt="" />
+          </div>
+          <p class="service__card--title">Fresh Flowers. Local Growers.</p>
+        </div>
+        <div class="service__card">
+          <div class="service__img--wrapper">
+            <img
+              src="images/Group 59.png"
+              alt="" />
+          </div>
+          <p class="service__card--title">24/7 Free Support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale__section">
+      <div class="container">
+        <div class="sale__left-side">
+          <header>
+            <h2 class="title">
+              Hot Deal ! Sale Up To 25% <span class="accent-text"> Off </span>
+            </h2>
+            <p class="subtitle">
+              It is a long established fact that a reader will be distracted by
+              the readable
+            </p>
+          </header>
+          <button class="btn">Sign Up</button>
+        </div>
+        <div class="sale__right-side">
+          <img
+            src="images/pngwing 8.png"
+            alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery__section">
+      <div class="container">
+        <header>
+          <h2 class="title">Instagram</h2>
+          <p class="subtitle">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </header>
+        <div class="gallery__card--wrapper">
+          <!-- card1  -->
+          <div class="gallery__card">
+            <img
+              class="gallery__card--img"
+              src="images/Flower 01.png"
+              alt="" />
+          </div>
+          <!-- card2 -->
+          <div class="gallery__card">
+            <img
+              class="gallery__card--img"
+              src="images/Rectangle 4.png"
+              alt="" />
+          </div>
+          <!-- card3 -->
+          <div class="gallery__card">
+            <img
+              class="gallery__card--img"
+              src="images/Rectangle 5.png"
+              alt="" />
+          </div>
+          <!-- card4 -->
+          <div class="gallery__card">
+            <div class="gallery__card--img-wrapper">
+              <img
+                class="gallery__card--img"
+                src="images/Rectangle 6.png"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter__section">
+      <div class="container">
+        <div class="newsletter__wrapper">
         
+           <header>
+              <h2 class="title">Get The Latest Deals</h2>
+            <p class="subtitle">$30 coupon for first shopping</p>
+          </header>
+          <div class="newsletter__form">
+            <input
+              type="email"
+              placeholder="Enter your email here" />
+            <button class="btn">Submit</button>
+          </div>
+        </div>
+   </div>
+    </section> 
+<footer>
+      <header>
+        <h2 class="title"><span>Flower</span class="accent-text">Shop</h2>
+        <p class="subtitle">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+      </header>
+      <p class="copyright">@2020-2023, FlowerShop.com. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>
